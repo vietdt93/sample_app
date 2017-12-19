@@ -1,33 +1,60 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  #hello: "Hello world"
+    layouts:
+        footer:
+            the: "The "
+            rt: "Ruby on Rails Tutorial"
+            by: "By "
+            michael: "Michael Hartl"
+            about: "About"
+            contact: "Contact"
+            news: "News"
+        header:
+            sample_app: "sample app"
+            home: "Home"  
+            help: "Help"
+            user: "Users"
+            logout: "Log out"
+            log: "Log in"
+            acc: "Account"
+    static_pages:    
+        home:
+            welcome: "Welcome to the Sample App"
+            homepage: "This is home page for the"
+            rortut: "Ruby on Rails Tutorial"
+            sample_application: "sample application"
+            sign: "Sign up now!"
+        help:
+            h: "Help"
+            get_help: "Get help on the Ruby on Rails Tutorial at the"
+            rail_help: "Rails Tutorial help page"
+            to_get: "To get help on this sample app, see the"
+            rortut: "Ruby on Rails Tutorial"
+            book: "book"
+        about:
+            about: "About"
+            the: "The"
+            rortut: "Ruby on Rails Tutorial"
+            is: "is a"
+            book: "book"
+            and: "and"
+            ss: "screencast series"
+            to_teach: "to teach web development with"
+            ror: "Ruby on Rails"
+            this_is: "This is the sample application for the tutorial." 
+    users:
+        new: 
+            sign: "Sign up"
+            signtext: "This will be a signup page for new users."
+
+    sessions:
+        new:
+            log: "Log in"
+            new: "New user?"
+            sign: "Sign up now!"
+
+
+
+
+
+
