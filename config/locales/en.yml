@@ -17,6 +17,7 @@ en:
             logout: "Log out"
             log: "Log in"
             acc: "Account"
+            set: "Settings"
     static_pages:    
         home:
             welcome: "Welcome to the Sample App"
@@ -46,12 +47,17 @@ en:
         new: 
             sign: "Sign up"
             signtext: "This will be a signup page for new users."
-
+        user:
+            del: "delete"
+            sure: "You sure?"
+        index:
+            allu: "All users"
     sessions:
         new:
             log: "Log in"
             new: "New user?"
             sign: "Sign up now!"
+            rem:  "Remember me on this computer"
 
 
 
